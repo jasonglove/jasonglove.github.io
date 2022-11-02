@@ -1,0 +1,104 @@
+.navbar {
+    height: 60px;
+    width: 100vw;
+}
+
+.logo {
+    position: absolute;
+    top: 0px;
+    left: 20px;
+}
+
+.pages {
+    position: absolute;
+    top: 30px;
+    right: 0;
+}
+
+.pages a {
+    padding: 5px 30px;
+    color: black;
+}
+
+.pages a:hover {
+    background-color: black;
+    color: white;
+}
+
+.pages .active{
+    background-color: black;
+    color: white;
+}
+
+.intro {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+}
+
+.intro .image {
+    padding-top: 40px;
+    border-radius: 50%;
+}
+
+.intro .intro-words {
+    padding-left: 35px;
+    font-size: 18px;
+}
+
+.intro .name-is{
+    font-size: 36px;
+}
+
+.subhead {
+    padding-top: 30px;
+    color: rgb(192, 32, 32);
+    font-size: 32px;
+}
+
+.so-far {
+    padding-top: 30px;
+    display: flex;
+    flex-direction: row;
+}
+
+.so-far .col {
+    width: 33%;
+    text-align: center;
+    font-size: 36px;
+}
+
+.so-far .projdesc{
+    width: 75%;
+    padding-left: 12.5%;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+}
+
+
+.moreabout {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+}
+
+.moreabout .moreabtimg {
+    padding-top: 40px;
+    border-radius: 50%;
+}
+
+.moreabout .moreabtwords {
+    padding-left: 60px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+}
+
+.moreabout .moreabtme{
+    font-size: 36px;
+}
+
+.subhead2{
+    color: rgb(192, 32, 32);
+    font-size: 32px;
+}

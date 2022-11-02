@@ -1,27 +1,72 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <!-- Primary Meta Tags -->
-    <title>Jason Love Portfolio</title>
-    <meta name="title" content="Jason Love Portfolio">
-    <meta name="description" content="My portfolio website">
 
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0, maximum-scale=1,
-      user-scalable=no"
-      />
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet'>
+</head>
 
-    <!-- LOCAL -->
-    <link rel="stylesheet" href="style/style.css" />
-    <link rel='shortcut icon' href='favicon.ico' type='image/x-icon'/>
-
-  </head>
-  <body>
-      howdy world!
-  </body>
+<body>
+    <div class="navbar" style="font-family: Oswald;">
+        <h1 class="logo">jasonlove</h1>
+        <div class="pages">
+            <a class="page-item active" onclick="window.location.href='http://127.0.0.1:5500/index.html'">home</a>
+            <a class="page-item" onclick="window.location.href='http://127.0.0.1:5500/projects.html'">projects</a>
+            <a class="page-item" onclick="window.location.href='http://127.0.0.1:5500/music.html'">music</a>
+        </div>
+    </div>
+    <div style="margin: 10px 10vw 10px 10vw; font-family: 'Oswald';">
+        <div class="intro">
+            <div class="image">
+                <img src="IMG_2062.jpg" style="width: 300px; height: 300px; border-radius: 50%;" />
+            </div>
+            <div class="intro-words">
+                <div class="name-is">
+                    <h1>MY NAME IS JASON</h1>
+                </div>
+                <h1>I AM AN ENGINEER, A MUSICIAN, AND AN EVERYDAY LEARNER</h1>
+            </div>
+        </div>
+        <div class="subhead">
+            <h2>What have I done so far?</h2>
+        </div>
+        <div class="so-far">
+            <div class="col">
+                <img src="pvent-1.jpg" style="width: 300px; height: 300px; border-radius: 5%;"/>
+                <h3>USED MY SKILLS FOR GOOD</h3>
+                <div class = "projdesc">
+                    <p>In the early stages of the Covid-19 pandemic, my team and I made the decision to set out on a mission to take the skills we had developed through MATE and apply them to real-world problems. This journey saw us applying for a patent on our technology, founding a company, and working with government and community leaders to put our solution to use.</p>
+                </div>
+            </div>
+            <div class="col">
+                <img src="mate-1.jpg" style="width: 300px; height: 300px; border-radius: 5%;"/>
+                <h3>COMPETED WITH THE BEST</h3>
+                <div class = "projdesc">
+                    <p>In the two years of my high school experience unaffected by the pandemic, I had the incredible opportunity to compete in the MATE (Marine Advanced Technology Education) ROV competition. I got to work with a highly competitive team comprised of members with a wide array of expertise which led us to the world championships surrounded by the brightest minds from each end of the globe.</p>
+                </div>
+            </div>
+            <div class="col">
+                <img src="MicrosoftTeams-image+(7).jpeg" style="width: 300px; height: 300px; border-radius: 5%;"/>
+                <h3>SHOWED MY TALENT TO THE WORLD</h3>
+                <div class = "projdesc">
+                    <p>Throughout high school, I played the double bass at the highest level in the Youth Orchestra of San Antonio. In the Summer of 2022, once Covid restrictions allowed for it, we toured the North Eastern United States visiting Boston, Philidelphia, and a final performance in New York's Carnegie Hall.</p>
+                </div>
+            </div>
+        </div>
+        <div class = "moreabout">
+            <div class="moreabtimg">
+                <img src="IMG_076342.jpg" style="width: 450px; height: 450px; border-radius: 5%;"/>
+            </div>
+            <div class="moreabtwords">
+                <div class="moreabtme" style="font-family: 'Oswald';">
+                    <h2>MORE ABOUT ME</h2>
+                </div>
+                <p>I am currently a general engineering major at Texas A&M University, and I hope to pursue a degree in computer science. I am self-taught in both my musical and computer talents.</p>
+                <p>I started to code in 6th grade by taking online courses and following project tutorials in computer science basics using HTML, Java, and Python before moving on to my own projects.</p>
+                <p>I began playing the bass when I was just in 5th grade. The strings program at my school taught me a few basic notes on the fingerboard, but from there my skills have come from countless hours of practice and many many YouTube videos.</p>
+            </div>
+        </div>
+    </div>
+</body>
 
 </html>
-
-<!-- LOCAL -->
-<script src="scripts/script.js"></script>
