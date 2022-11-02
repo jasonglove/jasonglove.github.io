@@ -16,6 +16,7 @@
 }
 
 .pages a {
+    text-decoration: none;
     padding: 5px 30px;
     color: black;
 }
